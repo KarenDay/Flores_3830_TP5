@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#999999;
+	color:#ffffff;
+	margin-top:20px;
+}
+div{
+	width:800px;
+	margin-bottom:20px;
+	margin-left: 20px;
+}
+header{
+	background-color: #1B61E9;
+	height: 100px;
+}
+header h1{
+	color: white;
+	text-align: center; 
+	line-height:90px;
+}
+nav{
+	background-color: #26A8DE;
+	height: 40px;
+	margin-bottom: 8px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	line-height: 5px;
+	
+}
+
+section{
+	width:586px;
+	height:450px;
+	background: #B7E4F7;
+	float:left;
+	margin-bottom:8px;
+	overflow: scroll;
+}
+
+section > h2{
+	background-color: #1197D7;
+	width:550px;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 20px;
+	color: #0F3ABB;
+	font-weight: bold;
+}
+
+
+aside{
+	width:208px;
+	height:450px;
+	background: #B7E4F7;
+	float:right;
+}
+
+aside > h2{
+	background-color: #1197D7;
+	width:192px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	text-align: center;
+	font-size: 15px;
+	color: #0F3ABB;
+	font-weight: bold;
+	
+}
+
+footer{
+	background-color: #1B61E9;
+	clear:both;
+	height:30px;
+}
+
+footer p{
+	font-size: 10px;
+	text-align: center;
+	line-height:30px;
+	font-weight: bold;
+}
+
+
+.columna > table{
+	width:160px;
+	height:135px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: black;
+	background-color: white;
+	
+	
+}
+.columna {
+	width:170px;
+	height:235px;
+	margin-left: 7px;
+	margin-right: 5px;
+	margin-top: 15px;
+	background-color: #1B61E9 ;
+	display: inline-block;
+}
+
+.columna img{
+	width: 150px;
+	height:100px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
+	
+}
+.fixture{
+	width: 550px;
+	margin-left: 8px;
+	margin-right: 8px; 
+	color:black;
+	text-align: justify;
+}
+
+.fixture img{
+	width: 50px;
+	height: 50px;
+}
+.auspiciante img{
+	width: 100px;
+	height: 70px;
+	padding-left:50px;
+}
+.auspiciante div{
+	margin-left: 8px;
+	margin-top: 8px;
+	width:192px;
+	padding-top: 50px;
+
+}
+.parrafo{
+	color: black;
+	background-color:#7D8EC3 ;
+}
+.equipo img{
+	width: 150px;
+}

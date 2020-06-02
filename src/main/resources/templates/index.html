@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/estilos.css"/>
+
+	</head>
+	
+	<body>
+		<div>
+			<header>
+				<h1>Liga de fútbol profesional</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html" >Home</a> </li>
+					<li><a href="fixture.html" >Fixture y resultados</a> </li>
+					<li><a href="equipos.html" >Equipos</a> </li>
+					
+				</ul>
+				<div id="welcome">
+				     <h4 th:text= " 'Bienvenido! '+ ${usuario}"></h4>
+				</div>
+			</nav>
+			<section>
+				<h2>Noticias</h2>
+				
+				<div class="columna">
+					<table>
+					    <tr>
+					    	<td>
+								<h2><img src="img/imagen1.jpg"></h2>
+								<p class="descripcion">12/03/20</p>
+								<br/>
+								<p class="descripcion">Nuevas noticias de los partidos suspendidos por la cuarentena</p>
+								<br/>
+						    </td>
+					    </tr>
+					</table>		
+				</div>
+				<div class="columna">
+					<table>
+					    <tr>
+					    	<td>
+								<h2><img src="img/imagen2.jpg"></h2>
+					            <p class="descripcion">13/03/20</p>
+					            <br/>
+				   	            <p class="descripcion">Repeticion de la transmision en vivo de la final de la copa anual de profesionales</p>
+						    </td>
+					    </tr>
+					</table>
+				</div>
+				<div class="columna">
+					<table>
+					    <tr>
+					    	<td>
+								<h2><img src="img/imagen3.jpg"></h2>
+								<p class="descripcion">20/03/20</p>
+								<br/>
+								<p class="descripcion">Reprogramación de sorteos para las proximas fechas</p>
+								<br/>
+						    </td>
+					    </tr>
+					</table>	
+				</div>
+			</section>
+			
+			<aside>
+				<h2>Auspiciantes</h2>
+			</aside>
+			
+			<footer>
+				<p>Av.Pedro Ortiz de Zarate N°455 - Tel 388 4789555</p>
+			</footer>
+		</div>
+	</body>
+</html>
